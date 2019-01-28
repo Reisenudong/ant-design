@@ -103,7 +103,6 @@ class App extends React.Component {
     clearFilters();
     this.setState({ searchText: '' });
   }
-
   render() {
     const columns = [{
       title: 'Name',
